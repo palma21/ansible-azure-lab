@@ -36,7 +36,7 @@ This document contains a lab guide that helps to deploy a basic environment in A
 Before starting with this account, make sure to fulfill all the requisites:
 
 - A valid Azure subscription account. If you don&#39;t have one, you can create your [free azure account](https://azure.microsoft.com/en-us/free/) (https://azure.microsoft.com/en-us/free/) today.
-- If you are using Windows 10, you can [install Bash shell on Ubuntu on Windows](http://www.windowscentral.com/how-install-bash-shell-command-line-windows-10) ( [http://www.windowscentral.com/how-install-bash-shell-command-line-windows-10](http://www.windowscentral.com/how-install-bash-shell-command-line-windows-10)).
+- If you are using Windows 10, you can [install Bash shell on Ubuntu on Windows](https://msdn.microsoft.com/en-us/commandline/wsl/install-win10).
 - Install Azure CLI, please see here for instructions: [https://docs.microsoft.com/en-us/cli/azure/install-azure-cli](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli) 
 
 This lab will cover:

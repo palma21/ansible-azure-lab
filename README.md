@@ -37,7 +37,7 @@ Before starting with this account, make sure to fulfill all the requisites:
 
 - A valid Azure subscription account. If you don&#39;t have one, you can create your [free azure account](https://azure.microsoft.com/en-us/free/) (https://azure.microsoft.com/en-us/free/) today.
 - If you are using Windows 10, you can [install Bash shell on Ubuntu on Windows](https://msdn.microsoft.com/en-us/commandline/wsl/install-win10).
-- Install Azure CLI, please see here for instructions: [https://docs.microsoft.com/en-us/cli/azure/install-azure-cli](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli) 
+- Install Azure CLI, please see here for instructions: [https://docs.microsoft.com/en-us/cli/azure/install-azure-cli](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
 
 This lab will cover:
 
@@ -70,17 +70,16 @@ In order to interact with machines other than Linux servers (for example, with t
 
 Additionally, Ansible requires that the managed hosts are documented in a **host inventory**. Alternatively, Ansible supports **dynamic inventories** for some systems, including Azure, so that the host inventory is dynamically generated at runtime.
 
-![Architecture Image](https://github.com/erjosito/ansible-azure-lab/blob/master/ansible_arch.png "Ansible Architecture Example")
+![Architecture Image](https://github.com/palma21/ansible-azure-lab/blob/master/ansible_arch.png "Ansible Architecture Example")
 
 **Figure**: Ansible architecture example to configure web servers and databases
 
 
 # Lab 1: Create Control VM using Azure CLI <a name="lab1"></a>
 
-
 **Step 1.** Log into your system. If you are using the Learn On Demand lab environment, the user for the Centos VM is lab-user, with the password Microsoft123!
 
-**Step 2.** If you don’t have a valid Azure subscription, but have received a voucher code for Azure, go to https://www.microsoftazurepass.com/Home/HowTo for instructions about how to redeem it.  
+**Step 2.** If you don’t have a valid Azure subscription, but have received a voucher code for Azure, go to https://www.microsoftazurepass.com/Home/HowTo for instructions about how to redeem it.
 
 **Step 3.** Open a terminal window. In Windows, for example by hitting the Windows key in your keyboard, typing &#39;cmd&#39; (without the quotes) and hitting the Enter key. You might want to maximize the command Window so that it fills your desktop.
 
@@ -294,7 +293,7 @@ sudo pip install dnspython packaging
 git clone git://github.com/ansible/ansible.git --recursive
 ```
 ```
-git clone git://github.com/erjosito/ansible-azure-lab
+git clone git://github.com/palma21/ansible-azure-lab
 ```
 
 **Step 4.** Lastly, you need to create a new file in the directory `~/.azure` (create it if it does not exist), using the credentials generated in the previous sections. The filename is `~/.azure/credentials`.
